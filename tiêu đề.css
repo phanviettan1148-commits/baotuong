@@ -1,0 +1,35 @@
+.logopdl {
+	margin: 0;
+	padding: 0;
+	display:flex;
+    align-items:center;
+    padding:20px 40px;
+    background: linear-gradient(to right, #ffffff, #f2f2f2);
+}
+.logo img {
+	width: 140px;
+	height: auto;
+}
+.tieude {
+	margin-left: 30px;
+}
+.tieude h1{
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:32px;
+	color:#1b2a7a;
+	letter-spacing:2px;
+}
+.tieude h2{
+	margin:5px 0 0 0;
+	font-family: 'Dancing Script', cursive;
+	font-size:42px;
+	color:#d11c1c;
+	font-weight:bolder;
+}
+.right {
+	font-size: 30px;
+	color: purple;
+	font-weight: bold;
+	margin-left: 65%;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Xuân Bính Ngọ</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="background.css">
+	<link rel="stylesheet" href="tiêu đề.css">
+	<link rel="stylesheet" href="thành viên.css">
+	<link rel="stylesheet" href="thanh_điều_hướng.css">
+	<link rel="stylesheet" href="lixi.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+	<div class="header">
+		<div class="logopdl">
+			<div class="logo">
+				<a href="https://thpt-pdluu.hue.edu.vn" target="_blank">
+					<img src="logo.png" alt="logo trường">
+				</a>
+			</div>
+			<div class="tieude">
+				<h1>TRƯỜNG TRUNG HỌC PHỔ THÔNG</h1>
+				<h2>Phan Đăng Lưu - T.P.Huế</h2>
+			</div>
+				<input type="checkbox" id="toggle">
+				<label for="toggle">
+					<h1 class="right click-text"> Nhóm 6 </h1>
+				</label>
+				<label for="toggle" class="overlay"></label>
+				<div class="popup">
+					<h1>Thành viên</h1>
+					<div class="container">
+						<div class=item>
+							<img src="Tân.jpg">
+							<p>Phan Viết Tân</p>
+						</div>
+						<div class=item>
+							<img src="Tài.jpg">
+							<p>Nguyễn Văn Tài</p>
+						</div>
+						<div class=item>
+							<img src="Quân.jpg">
+							<p>Nguyễn Văn Quân</p>
+						</div>
+						<div class=item>
+							<img src="Quỳnh.jpg">
+							<p>Châu Thị Như Quỳnh</p>
+						</div>
+						<div class=item>
+							<img src="Thi.jpg">
+							<p>Võ Châu Minh Thi</p>
+						</div>
+						<div class=item>
+							<img src="Quốc.jpg">
+							<p>Huỳnh Tiến Quốc</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<h1><center>CHÚC MỪNG NĂM MỚI XUÂN 2026</center></h1>
+		<h2>Tết Nguyên đán năm Bính Ngọ</h2>
+		<div class="gioithieu">
+			<p>Tết, còn được gọi là lễ hội Tết Nguyên đán, là lễ hội truyền thống lớn nhất ở Việt Nam. Tết thường là từ cuối tháng Giêng đến đầu tháng Hai. Trước Tết, người Việt Nam chuẩn bị nhiều thứ cho ba ngày chính.</p>
+			<h2><center>"Tết là sum vầy"</center></h2>
+			<hr>
+			<p>Theo quan niệm của người Việt Nam, ngày Tết đầu xuân là ngày đoàn tụ, đoàn viên. Hàng năm mỗi khi Tết đến, người Việt Nam có tục lệ dù làm bất cứ nghề gì, ở bất cứ nơi đâu đều mong được trở về sum họp dưới mái ấm gia đình, được sống lại với những kỷ niệm đầy ắp yêu thương của tuổi thơ yêu dấu. “Về quê ăn Tết”, đó không phải là một khái niệm thông thường đi hay về, mà là một cuộc hành hương về với cội nguồn.</p>
+		</div>
+		<div class="menu">
+			<div onmouseover="changePage('lịch sử.html')">Lịch sử</div>
+			<div onmouseover="changePage('giai đoạn.html')">Các giai đoạn</div>
+			<div onmouseover="changePage('hoạt động.html')">Hoạt động</div>
+		</div>
+		<div class="content">
+			<iframe id="frame" src="lịch sử.html"></iframe>
+		</div>
+		<script>
+		function changePage(page) {
+			document.getElementById("frame").src = page;
+		}
+		</script>
+	</div>
+
+	<br>
+	<h1><center>Chương trình lì xì đầu năm <i class="fa-solid fa-money-bill"></i></center></h1>
+
+	<div class="lixidaunam">
+		<div class="card">
+			<input type="checkbox" id="tog1">
+			<label for="tog1">
+				<img src="tien1.jpg" class="slide">
+				<img src="lixi1.jpg" class="main">
+			</label>
+		</div>
+		<div class="card">
+			<input type="checkbox" id="tog2">
+			<label for="tog2">
+				<img src="tien2.jpg" class="slide">
+				<img src="lixi2.jpg" class="main">
+			</label>
+		</div>
+		<div class="card">
+			<input type="checkbox" id="tog3">
+			<label for="tog3">
+				<img src="tien3.jpg" class="slide">
+				<img src="lixi3.jpg" class="main">
+			</label>
+		</div>
+		<div class="card">
+			<input type="checkbox" id="tog4">
+			<label for="tog4">
+				<img src="tien4.jpg" class="slide">
+				<img src="lixi4.jpg" class="main">
+			</label>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="image-box">
+				<img src="logo.png">
+			</div>
+			<div class="text">
+				<h3>
+					<i class="fa-solid fa-house"></i>
+					Trường THPT Phan Đăng Lưu - lớp 12A4 - Nhóm 6
+				</h3>
+				<p>
+					<i class="fa-solid fa-envelope"></i>
+					phanviettan1148@gmail.com
+				</p>
+				<p>Thiết kế: Phan Viết Tân</p>
+				<p>Nội dung: Võ Châu Minh Thi, Châu Thị Như Quỳnh, Nguyễn Văn Tài</p>
+				<p>Ý tưởng: Nguyễn Văn Quân, Phan Viết Tân, Huỳnh Tiến Quốc</p>
+				<p>Giáo viên: Nguyễn Vũ Cát Tường</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

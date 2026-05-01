@@ -1,0 +1,44 @@
+.lixidaunam {
+	text-align: center;
+	margin: 10px auto;
+	max-width: 70%;
+	display: flex;
+	justify-content: center;
+}
+.lixidaunam img {
+	width: 200px;
+	height: 400px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+}
+
+.card{
+	width:250px;
+	position:relative;
+	overflow:hidden;
+	border-radius:10px;
+}
+
+input{
+	display:none;
+}
+
+.main{
+	width:100%;
+	display:block;
+	cursor:pointer;
+}
+
+.slide{
+	position:absolute;
+	top:-100%;
+	left:0;
+	width:100%;
+	transition:0.5s;
+}
+
+input:checked + label .slide{
+	top:0;
+}
